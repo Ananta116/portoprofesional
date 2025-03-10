@@ -444,46 +444,51 @@ export default function Home() {
       <section role="Testimonials">
         <div className="mt-10 flex gap-3 justify-center items-center max-sm:flex-col sm:flex-col">
           <div className="bg-zinc-900 text-white w-[800px] h-[200px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl">
-            <div className="flex mt-5 ml-5">
-              <Image
-                className="rounded-full"
-                src={"/testi1.png"}
-                alt="testimonial1"
-                width={50}
-                height={50}
-              />
-              <div className="flex flex-col ml-5">
-                <p>Antoni</p>
-                <p>⭐⭐⭐⭐⭐</p>
+            <Animasi>
+              <div className="flex mt-5 ml-5">
+                <Image
+                  className="rounded-full"
+                  src={"/testi1.png"}
+                  alt="testimonial1"
+                  width={50}
+                  height={50}
+                />
+                <div className="flex flex-col ml-5">
+                  <p>Antoni</p>
+                  <p>⭐⭐⭐⭐⭐</p>
+                </div>
               </div>
-            </div>
-            <p className="mt-5 ml-5">
-              Excelent!. Their expertise in front-end and back-end development
-              ensured a seamless, high-performance website. With great
-              problem-solving skills and attention to detail, they delivered a
-              user-friendly and efficient platform. Highly recommended!
-            </p>
+              <p className="mt-5 ml-5">
+                Excelent!. Their expertise in front-end and back-end development
+                ensured a seamless, high-performance website. With great
+                problem-solving skills and attention to detail, they delivered a
+                user-friendly and efficient platform. Highly recommended!
+              </p>
+            </Animasi>
           </div>
           <div className="bg-zinc-900 text-white w-[800px] h-[200px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl">
-            <div className="flex mt-5 ml-5">
-              <Image
-                className="rounded-full"
-                src={"/testi2.png"}
-                alt="testimonial1"
-                width={50}
-                height={50}
-              />
-              <div className="flex flex-col ml-5">
-                <p>Giorno</p>
-                <p>⭐⭐⭐⭐⭐</p>
+            <Animasi>
+              <div className="flex mt-5 ml-5">
+                <Image
+                  className="rounded-full"
+                  src={"/testi2.png"}
+                  alt="testimonial1"
+                  width={50}
+                  height={50}
+                />
+                <div className="flex flex-col ml-5">
+                  <p>Giorno</p>
+                  <p>⭐⭐⭐⭐⭐</p>
+                </div>
               </div>
-            </div>
-            <p className="mt-5 ml-5">
-              Deep understanding of both front-end and back-end development
-              allowed us to build a fast, responsive, and scalable website. They
-              are highly skilled, detail-oriented, and always deliver beyond
-              expectations. Highly recommended for any web development project!
-            </p>
+              <p className="mt-5 ml-5">
+                Deep understanding of both front-end and back-end development
+                allowed us to build a fast, responsive, and scalable website.
+                They are highly skilled, detail-oriented, and always deliver
+                beyond expectations. Highly recommended for any web development
+                project!
+              </p>
+            </Animasi>
           </div>
         </div>
       </section>
